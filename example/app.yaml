@@ -1,4 +1,4 @@
-application: ranklist-example
+application: leaderboard-api
 version: 1
 runtime: python
 api_version: 1
