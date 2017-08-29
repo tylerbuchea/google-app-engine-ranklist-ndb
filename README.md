@@ -1,6 +1,8 @@
 google-app-engine-ranklist-ndb
 ==============================
 
+**[https://leaderboard-api-178317.appspot.com/](https://leaderboard-api-178317.appspot.com/)**
+
 google-app-engine-ranklist-ndb is a forked project from https://code.google.com/p/google-app-engine-ranklist/
 
 Following changes are made to the original code
@@ -44,6 +46,7 @@ Resources
 
 - [Github uberik/google-app-engine-ranklist](https://github.com/Ruberik/google-app-engine-ranklist)
 - [Github ymorired/google-app-engine-ranklist-ndb](https://github.com/ymorired/google-app-engine-ranklist-ndb)
+- [Official code for google-app-engine-ranklist](https://code.google.com/archive/p/google-app-engine-ranklist/source)
 - [Fast and Reliable Ranking in Datastore](https://cloud.google.com/datastore/docs/articles/fast-and-reliable-ranking-in-datastore/)
 - [Google App Engine Blog](http://googleappengine.blogspot.jp/2009/01/google-code-jams-ranking-library.html)
 - []()
