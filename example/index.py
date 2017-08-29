@@ -14,6 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 import os
+import json
 
 from google.appengine.ext import webapp
 from google.appengine.ext.webapp import template
@@ -77,7 +78,13 @@ class QueryRankPage(webapp.RequestHandler):
             template_values["rank_at_tie"] = rank_at_tie
 
         path = os.path.join(os.path.dirname(__file__), 'rank.html')
-        self.response.out.write(template.render(path, template_values))
+        # self.response.out.write(template.render(path, template_values))
+        self.response.headers['Content-Type'] = 'application/json'   
+        obj = {
+            'success': 'some var', 
+            'payload': 'some var',
+        } 
+        self.response.out.write(json.dumps(template_values))
 
 
 class QueryScorePage(webapp.RequestHandler):
@@ -93,7 +100,13 @@ class QueryScorePage(webapp.RequestHandler):
         template_values = {"score": score, "rank": rank}
 
         path = os.path.join(os.path.dirname(__file__), 'score.html')
-        self.response.out.write(template.render(path, template_values))
+        # self.response.out.write(template.render(path, template_values))
+        self.response.headers['Content-Type'] = 'application/json'   
+        obj = {
+            'success': 'some var', 
+            'payload': 'some var',
+        } 
+        self.response.out.write(json.dumps(template_values))
 
 
 application = webapp.WSGIApplication([
