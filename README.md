@@ -31,3 +31,10 @@ can run it with the following command:
 
 $ dev_appserver.py example
 
+Commands
+======
+
+```
+gcloud config set project leaderboard-api
+gcloud app deploy app.yaml
+```
