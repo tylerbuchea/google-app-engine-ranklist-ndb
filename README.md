@@ -35,6 +35,15 @@ Commands
 ======
 
 ```
-gcloud config set project leaderboard-api
+gcloud config set project leaderboard-api-178317
 gcloud app deploy app.yaml
 ```
+
+Resources
+======
+
+- [Github uberik/google-app-engine-ranklist](https://github.com/Ruberik/google-app-engine-ranklist)
+- [Github ymorired/google-app-engine-ranklist-ndb](https://github.com/ymorired/google-app-engine-ranklist-ndb)
+- [Fast and Reliable Ranking in Datastore](https://cloud.google.com/datastore/docs/articles/fast-and-reliable-ranking-in-datastore/)
+- [Google App Engine Blog](http://googleappengine.blogspot.jp/2009/01/google-code-jams-ranking-library.html)
+- []()
